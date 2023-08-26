@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="" crossorigin="anonymous"></script>  <!-- Add your fontawesome kit id -->
+</head>
+
+<body>
+    <header>
+        <center>
+            <img src="" alt="profile photo" width="140px"> <!-- Add your photo, and set width accordingly -->
+            <h1>Your name</h1> <!-- Add your name -->
+            <p>Working Post</p>
+            <hr>
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, blanditiis.</p>
+            <hr>
+        </center>
+    </header>
+
+    <main>
+        <section>
+            <h2>Projects</h2>
+            <ol>
+                <li>
+                    <h2>Project 1</h2>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>
+                            <a href="">See here</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Project 2</h2>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>
+                            <a href="">See here</a>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <hr>
+        </section>
+
+        <section>
+            <center>
+                <h2>Education</h2>
+            </center>
+            <ul type="disc">
+                <li>Lorem</li>
+                <li>Lorem</li>
+            </ul>
+            <hr>
+        </section>
+
+        <section>
+            <center>
+                <h2>Work Experience</h2>
+            </center>
+            <ol>
+                <li>
+                    <h2>Junior Developer - Company 1</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Web Dev - Company 2</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    </ul>
+                </li>
+            </ol>
+            <hr>
+        </section>
+
+        <section>
+            <center>
+                <h2>Skills</h2>
+            </center>
+            <ul type="disc">
+                <li>HTML <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+                <li>CSS <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> </li>
+                <li>JAVASCRIPT <i class="fa-regular fa-star"></i> </li>
+            </ul>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <center>
+            <h2>Contact Me</h2>
+            <form action="">
+                <div>
+                    Name: <input type="text">
+                </div>
+                <br>
+                <div>
+                    Email: <input type="email">
+                </div>
+                <br>
+                <div>
+                    Message: <textarea name="" id="" cols="20" rows="3"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="button" value="Send">
+                </div>
+            </form>
+            <p>
+                <i class="fa-regular fa-copyright"></i> 2023 Your name
+            </p>
+        </center>
+    </footer>
+</body>
+
+</html>
